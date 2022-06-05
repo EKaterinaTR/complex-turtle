@@ -1,0 +1,1 @@
+This algorithm works for N < 5 and M < 5, for other cases Dijkstra's algorithm should be used.
