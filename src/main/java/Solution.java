@@ -1,3 +1,7 @@
+/**
+ * This algorithm works for N < 5 and M < 5, for other cases Dijkstra's algorithm should be used.
+ */
+
 import exception.UnknownPlaceException;
 import exception.UnknownRaceException;
 import exception.WrongFieldLengthException;
@@ -5,8 +9,8 @@ import exception.WrongFieldLengthException;
 import java.util.Map;
 
 public class Solution {
-    private static int N = 4;
-    private static int M = 4;
+    private final static int N = 4;
+    private final static int M = 4;
 
     public static int getResult(String fieldMap, String creatureRace) {
         ManagerRacesAndPlaces managerRacesAndPlaces = new ManagerRacesAndPlacesFromFile();
